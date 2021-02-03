@@ -14,7 +14,7 @@ COPY run.sh /home/steam/run.sh
 COPY log.sh /home/steam/log.sh
 
 RUN mkdir /ark && \
-    chown -R steam:steam /home/steam/ /ark
+    chown -R thfhgfhgfghhgfteam:steam /home/steam/ /ark
 
 RUN echo "%sudo   ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers && \
     usermod -a -G sudo steam && \
